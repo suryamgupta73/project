@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image:url(bg\ image.avif);
+    background-size: cover;
+    padding: 30px 15px;
+}
+
+.page {
+    max-width: 720px;
+    margin: auto;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.hero img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 10px 30px rgba(255, 80, 110, 0.3);
+}
+
+.hero h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+    margin-top: 15px;
+    color: #ff4d6d;
+}
+
+.tagline {
+    font-size: 15px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.location {
+    font-size: 13px;
+    color: #cccccc;
+    margin-top: 3px;
+}
+
+
+.card {
+    background-color: rgba(48, 42, 42,00.5s);
+    color:#cccccc;
+    padding: 25px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+#About{
+    color: #cccccc;
+     line-height: 1.7;
+    font-size: 15px;
+}
+
+.card.soft {
+    
+    background-color: rgba(48, 42, 42,00.5s);
+    color: #cccccc;
+}
+
+.card h2 {
+    font-family: 'DM Serif Display', serif;
+    color: #ff4d6d;
+    margin-bottom: 10px;
+}
+
+
+/* Shayari */
+.shayari {
+    font-style: oblique 40deg;
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: #f88787e3;
+}
+
+.hobby-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 18px;
+}
+.songs{
+    color:white;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    
+}
+
+
+.hobby {
+    background: linear-gradient(135deg, #ffe3ea, #ffd1dc);
+    color: #ff4d6d;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 6px 18px rgba(255, 80, 110, 0.18);
+    transition: all 0.25s ease;
+    letter-spacing: 0.3px;
+}
+
+.hobby:hover {
+    background: linear-gradient(135deg, #ff6a88, #ff99ac);
+    color: white;
+    transform: translateY(-2px);
+}
