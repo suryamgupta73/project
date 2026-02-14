@@ -112,6 +112,9 @@ body {
     transition: all 0.25s ease;
     letter-spacing: 0.3px;
 }
+.end{
+    color:#ff4d6d;
+}
 
 .hobby:hover {
     background: linear-gradient(135deg, #ff6a88, #ff99ac);
